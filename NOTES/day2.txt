@@ -1,0 +1,4 @@
+WEB TECH :
+
+Frontend : HTML, CSS, JS.
+Backend : Js, JSP, ASP, PHP.

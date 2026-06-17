@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Border Properties</title>
+
+
+<style>
+    body {
+      margin: 0;
+      padding: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f6f6f6;
+      color: #222;
+    }
+
+    .wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .box {
+      background: #fff;
+      padding: 14px;
+      margin: 14px 0;
+      border-radius: 10px;
+    }
+
+    /* 1) solid border */
+    .solid {
+      border: 3px solid #1e90ff;
+    }
+
+    /* 2) dashed border */
+    .dashed {
+      border: 3px dashed #ff4757;
+    }
+
+    /* 3) dotted border */
+    .dotted {
+      border: 3px dotted #2ed573;
+    }
+
+    /* 4) double border */
+    .double {
+      border: 6px double #8e44ad;
+    }
+
+    /* 5) border-top / right / bottom / left individually */
+    .sides {
+      border-left: 6px solid #ffa502;
+      border-top: 4px solid #3742fa;
+      border-right: 2px solid #01a3a4;
+      border-bottom: 7px solid #7bed9f;
+    }
+
+    /* 6) different thickness using border-width */
+    .widths {
+      border-style: solid;
+      border-color: #e84393;
+      border-width: 2px 8px 2px 8px; /* top right bottom left */
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 26px;
+    }
+
+    p {
+      line-height: 1.4;
+      margin: 0;
+    }
+  </style>
+
+
+</head>
+<body>
+
+
+
+    <div class="wrapper">
+    <h1>Multiple Paragraphs with Different Border Properties</h1>
+
+    <p class="box solid">
+      This paragraph uses a <strong>solid</strong> border.
+      The border is drawn with the same thickness around the box.
+    </p>
+
+    <p class="box dashed">
+      This paragraph uses a <strong>dashed</strong> border.
+      It looks broken up into segments.
+    </p>
+
+    <p class="box dotted">
+      This paragraph uses a <strong>dotted</strong> border.
+      The border is made of small dots.
+    </p>
+
+    <p class="box double">
+      This paragraph uses a <strong>double</strong> border.
+      You will see two parallel lines.
+    </p>
+
+    <p class="box sides">
+      This paragraph sets borders on each side individually
+      (left, top, right, bottom) with different colors and thicknesses.
+    </p>
+
+    <p class="box widths">
+      This paragraph uses <strong>border-width</strong> with different values
+      for top/right/bottom/left.
+    </p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
